@@ -1,0 +1,2 @@
+# Abstractive-Meeting-Summarization
+Code displays an effictive system towards summarization of MPC(Multi-Party Conversational) dialogues. Using the SAMSum conversation summarization dataset, we train a BART model. Our pipeline divides the input transcript into smaller conversational blocks, removes redundant text using a custom rule-based algorithm, summarises the conversational blocks, obtains the block-wise summaries, cleans, organises, and then combines the summaries to create the meeting minutes.  
